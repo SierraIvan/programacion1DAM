@@ -1,8 +1,8 @@
-package main;
+package ifelse;
 
 import java.util.Scanner;
 
-public class ifelse2 {
+public class Ejercicio2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -10,7 +10,7 @@ public class ifelse2 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("di un numero, positivo o negativo");
 		
-		int num=sc.nextInt();
+		int num =sc.nextInt();
 		
 		if (num==0) {
 			System.out.println("el numero es 0");
@@ -19,6 +19,7 @@ public class ifelse2 {
 		}else{
 			System.out.println("tu numero es negativo");
 		}
+
 	}
 
 }
