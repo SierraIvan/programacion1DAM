@@ -9,12 +9,11 @@ public class Ejercicio3 {
 		
 		
 		
-		int n;
 		
 	System.out.println("Introduce un numero positivo");
 	
 	Scanner sc =new Scanner(System.in);
-	n=sc.nextInt();
+	int n=sc.nextInt();
 	
 	for(int i=1;i<=10;i++) {
 		System.out.println(n*i);
