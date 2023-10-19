@@ -12,12 +12,13 @@ public class Ejercicio3 {
 		System.out.println("intraduzca un numero entero");
 		
 		int n =sc.nextInt();
-		int i=10;
+		int d=0;
 		
-		while(i<n) {
-			System.out.println(n / 10);
-			
+		while(n>0) {
+			n=n/10;
+			d++;
 		}
+		System.out.println("tu numero tiene " + d + " digitos");
 	}
 
 }
