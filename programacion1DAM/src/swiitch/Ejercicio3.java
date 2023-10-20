@@ -24,7 +24,7 @@ public class Ejercicio3 {
 			break;
 
 	}
-		System.out.println("quieres cambiarlos, y o n");
+		System.out.println("quieres cambiarlos, si (y) o no (n)");
 		Scanner sc2=new Scanner(System.in);
 		char c=sc2.next().charAt(0);
 		
