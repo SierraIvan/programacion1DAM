@@ -28,20 +28,20 @@ public class Ejercicio2 {
 		
 		switch(o) {
 			case '+':
-				int resultadosuma= n + i;
+				double resultadosuma= n + i;
 				System.out.println(n  + "+" + i + " = " + resultadosuma);
 			break;
 			case '-':
-				int resultadoresta=n - i;
+				double resultadoresta=n - i;
 				System.out.println(n + "-" + i + " = " + resultadoresta);
 			break;
 			case '*':
-				int resultadomulti=n * i;
+				double resultadomulti=n * i;
 				System.out.println(n + "*" + i + " = " + resultadomulti);
 			break;
 			case '/':
 				if(i !=0) {
-					int resultadodiv=n / i;
+					double resultadodiv=n / i;
 				System.out.println(n + "/" + i +" = " + resultadodiv);
 				}else {
 					System.out.println(n + "/" + i +" = " + " error");
