@@ -6,6 +6,7 @@ import java.util.Scanner;
  * class Ejercicio5
  * @author Sierra
  */
+
 public class Ejercicio5 {
 	
 	/**
@@ -14,11 +15,6 @@ public class Ejercicio5 {
 	 */
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		/**
-		 * Estas son las variables
-		 */
 		
 		int n = 1;// numero que comprobaremos si son divisibles entre 2 y 3
 		int posicion = 0;// numero de la posición en la que esta el numero en la lista
