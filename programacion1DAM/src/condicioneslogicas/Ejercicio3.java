@@ -7,14 +7,11 @@ import java.util.Scanner;
  * @author Sierra
  */
 public class Ejercicio3 {
-
-	
 	/**
 	 * metodo entrada
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		System.out.println("introduce numeros y te dire en que orden estan");
 		System.out.println("introduce un numero");
@@ -30,14 +27,13 @@ public class Ejercicio3 {
 		sc1.close();
 		sc2.close();
 		
-		if(n>i && i>k) {
+		if( n > i && i > k)
 			System.out.println("Estan en orden decreciente ");
-		}else if(n<i && i<k) {
+		else if( n < i && i < k)
 			System.out.println("Estan en orden creciente");
-			
-		}else {
+		else
 			System.out.println("No estan en orden creciente ni decreciente.");
-		}
+		
 		
 		
 	}
