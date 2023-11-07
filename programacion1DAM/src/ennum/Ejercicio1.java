@@ -9,10 +9,10 @@ public class Ejercicio1 {
     }
 	public static void main(String[] args) {
 		
-		 Scanner scanner = new Scanner(System.in);
+		 Scanner sc = new Scanner(System.in);
 
 	        System.out.println("Ingrese un número entre 1 y 7:");
-	        int n = scanner.nextInt();
+	        int n = sc.nextInt();
 	        
 	        if(n>=8 || n<=0) {
 				System.out.println("tu eres tonto");
@@ -23,7 +23,7 @@ public class Ejercicio1 {
 	        System.out.println("El dia de la semana correspondiente al número " + n + " es: " + dia);
 		
 		
-	}
+		}
 	}
 
 }
