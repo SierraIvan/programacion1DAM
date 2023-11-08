@@ -40,7 +40,6 @@ public class Ejercicio6 {
        
        numerosramdom[n1] = n2;
        
-       for 
        
        
 
