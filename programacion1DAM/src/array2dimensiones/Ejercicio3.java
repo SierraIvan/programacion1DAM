@@ -49,18 +49,10 @@ System.out.print("Matriz original");
 			 }
 		 
 		 
-
-			/*for (int i = 0; i < matriz.length; i++) {
-				System.out.print("\n");
-				for(int n = 0; n<matriz.length;n++) {
-					suma += matriz[i][n];
-					/*promedio = (matriz[i][n])/cantidad;
-					System.out.println(suma);
-					
 				}
 		
-	}*/
+	
 
 
 }
-}
+

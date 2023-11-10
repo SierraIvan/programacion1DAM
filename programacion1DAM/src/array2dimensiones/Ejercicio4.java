@@ -40,8 +40,8 @@ public class Ejercicio4 {
 					  int a = matriz[n][i];
 					  int b = matriz[j][k];
 					  int c = matriz[p][l];
-					  int sum = a + b + c;
-					  System.out.println("La suma de los numeros " + a + " + " + b + " + " + c + " es: " + sum);
+					  int suma = a + b + c;
+					  System.out.println("La suma de los numeros " + a + " + " + b + " + " + c + " es: " + suma);
 					  a = sc.nextInt();
 				
 				}System.out.println("Alguna posicion es invalida");
