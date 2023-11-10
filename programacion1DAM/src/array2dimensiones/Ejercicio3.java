@@ -19,7 +19,6 @@ System.out.print("Matriz original");
 		}
 		
 		
-		/*Promedio en filas*/
 			System.out.println("\n");
 		System.out.println("\nPromedio en filas");
 		
@@ -34,7 +33,6 @@ System.out.print("Matriz original");
        		 System.out.println(promedio);
 		 }
 		 
-		 /*Promedio en columnas*/
 			System.out.println("\nPromedio en columnas");
 			
 			 for (int i = 0; i < matriz.length; i++) {
