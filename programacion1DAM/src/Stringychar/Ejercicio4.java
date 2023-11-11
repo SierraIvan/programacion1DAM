@@ -19,8 +19,8 @@ public class Ejercicio4 {
         return new StringBuilder(cadena).reverse().toString();
 
     }
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		
 		System.out.println("introduce una frase y te la doy al reves");
